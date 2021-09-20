@@ -1,0 +1,60 @@
+.hidden {
+    visibility: hidden;
+}
+body {
+    color: white;
+    text-align: center;
+}
+#container {
+    display:grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    height: 100%;
+    width: 1000px;
+    margin: auto;
+}
+.hidden {
+    font-size: 50px;
+}
+#login-form {
+    height: 50px;
+}
+#clock {
+    height: 200px;
+    text-align: center;
+    font-size: 100px;
+}
+#greeting {
+    height: 50px;
+    font-size: 35px;
+}
+#weather-container {
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#todo-form {
+    padding: 10px 0px;
+}
+#todo-list {
+    width: auto;
+    margin: auto;
+    font-size: 30px;
+}
+#quote {
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+#todo-input {
+    font-size: 20px;
+    text-align: center;
+}
+span {
+    text-align: center;
+}
+span:last-child {
+    font-size: 0.8em;
+}
